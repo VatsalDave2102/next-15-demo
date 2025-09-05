@@ -19,16 +19,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - New `staleTime` configuration for client router cache
 - **Examples**: Route handlers, ISR configuration, cache control
 
-### 3. Static Indicator for Optimization
-- **Location**: `/static-indicator`
-- **Demonstrates**: Visual indicators for static routes during development
-- **Key Features**: 
-  - Green indicators for static routes
-  - Performance optimization guidance
-  - Route configuration options
-- **Configuration**: `export const dynamic = 'force-static'`
-
-### 4. Server Lifecycle Observability
+### 3. Server Lifecycle Observability
 - **Location**: `/server-lifecycle`
 - **File**: `instrumentation.ts` (root level)
 - **Demonstrates**: Stable instrumentation.js for server monitoring
@@ -38,7 +29,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Custom metrics collection
   - APM tool integration points
 
-### 5. Enhanced Forms with next/form
+### 4. Enhanced Forms with next/form
 - **Location**: `/enhanced-forms`
 - **Demonstrates**: Improved HTML forms with client-side navigation
 - **Key Features**:
@@ -48,7 +39,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Server action integration
 - **Example**: Contact form with success page redirect
 
-### 6. TypeScript Configuration
+### 5. TypeScript Configuration
 - **Location**: `/typescript-config`
 - **File**: `next.config.ts`
 - **Demonstrates**: TypeScript support for Next.js configuration
@@ -58,7 +49,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Compile-time error checking
   - ES6 import/export syntax
 
-### 7. Secure Server Actions
+### 6. Secure Server Actions
 - **Location**: `/secure-server-actions`
 - **Demonstrates**: Enhanced security features for Server Actions
 - **Key Improvements**:
@@ -68,7 +59,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Security best practices
 - **Example**: Secure user creation form
 
-### 8. Optimized Hydration
+### 7. Optimized Hydration
 - **Location**: `/optimized-hydration`
 - **Demonstrates**: React 19 enhanced hydration features
 - **Key Features**:
@@ -78,7 +69,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Better performance metrics
 - **Examples**: Interactive vs static components, streaming content
 
-### 9. Server Functions
+### 8. Server Functions
 - **Location**: `/server-functions`
 - **Demonstrates**: Efficient server-client interactions without API routes
 - **Key Features**:
@@ -88,7 +79,7 @@ A comprehensive demonstration of all major Next.js 15 features with practical ex
   - Form action integration
 - **Examples**: User data fetching, form processing, shipping calculator
 
-### 10. Enhanced Suspense Features
+### 9. Enhanced Suspense Features
 - **Location**: `/enhanced-suspense`
 - **Demonstrates**: Improved data fetching with React 19 Suspense
 - **Key Features**:
