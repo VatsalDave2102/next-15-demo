@@ -26,13 +26,6 @@ async function secureCreateUser(formData: FormData) {
   redirect("/secure-server-actions/success");
 }
 
-// Example of an unused action that should be removed
-async function unusedServerAction() {
-  "use server";
-  // This action is never used and should be removed for security
-  console.log("This action should be removed");
-}
-
 export default function SecureServerActions() {
   return (
     <DemoLayout
